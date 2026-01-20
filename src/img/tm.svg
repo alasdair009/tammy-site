@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Tammy Macrae">
+    <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#006666"/>
+            <stop offset="1" stop-color="#b2d8d8"/>
+        </linearGradient>
+    </defs>
+    <path d="
+    M48 96
+    c0-44.18 35.82-80 80-80
+    h256
+    c44.18 0 80 35.82 80 80
+    v200
+    c0 44.18-35.82 80-80 80
+    H280
+    l-96 88
+    v-88
+    h-56
+    c-44.18 0-80-35.82-80-80
+    Z"
+          fill="url(#g)" stroke="black" stroke-width="3"/>
+    <g fill="#ffffff" stroke="black" stroke-width="3">
+        <path d="M154 112h120v32h-44v118h-32V144h-44z"/>
+    </g>
+    <g fill="#ffffff" stroke="black" stroke-width="3">
+        <path d="M246 298V180h32l32 64 32-64h32v118h-32v-60l-32 58-32-58v60z"/>
+    </g>
+</svg>
