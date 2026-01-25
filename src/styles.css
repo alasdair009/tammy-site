@@ -76,6 +76,14 @@ small {
     font-size: var(--font-size-small);
 }
 
+hr {
+    border-bottom: none;
+    border-top: 1px solid var(--color-teal-dark);
+    margin: 2rem auto;
+    max-width: 40rem;
+    width: 100%;
+}
+
 .home-logo {
     aspect-ratio: 1;
     display: block;
@@ -87,5 +95,26 @@ small {
     .home-logo {
         margin-block: 2rem;
         max-width: 15rem;
+    }
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: var(--size-max-width);
+}
+
+.linkedin-in {
+    aspect-ratio: 1;
+    background: var(--color-teal-dark);
+    color: transparent;
+    display: flex;
+    mask: url(./img/linkedin.svg) center / contain no-repeat;
+    overflow: hidden;
+    width: 2rem;
+
+    &:hover {
+        filter: brightness(1.3);
     }
 }
